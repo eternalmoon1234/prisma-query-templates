@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dits/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/eternalmoon1234/prisma-query-templates/issues"
   },
-  "homepage": "https://github.com/eternalmoon1234/prisma-query-templates#readme"
+  "homepage": "https://github.com/eternalmoon1234/prisma-query-templates#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
 }
