@@ -1,1 +1,1 @@
-# prisma-query-templates
+# Prisma Query Templates
